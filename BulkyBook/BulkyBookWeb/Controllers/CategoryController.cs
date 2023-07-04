@@ -59,10 +59,6 @@ public class CategoryController : Controller
         return View(categoryFromDb);
     }
 
-    public IActionResult Chgitem(string? name)
-    {
-        return View(name);
-    }
 
 
     //POST EDIT
